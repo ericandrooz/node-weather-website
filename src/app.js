@@ -104,5 +104,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`Port Listening on Port ${port}`);
+  console.log(`Listening on Port ${port}`);
 });
